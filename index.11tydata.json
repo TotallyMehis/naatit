@@ -37,6 +37,21 @@
                     "full": "https://naatit-cdn.mehis.dev/de_nuke_pihasavut.webm"
                 },
                 {
+                    "title": "A siilo savu",
+                    "thumbnail": "de_nuke_a_silo_smoke_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_nuke_a_silo_smoke.webm"
+                },
+                {
+                    "title": "A hut savu",
+                    "thumbnail": "de_nuke_a_hut_smoke_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_nuke_a_hut_smoke.webm"
+                },
+                {
+                    "title": "A hut molo",
+                    "thumbnail": "de_nuke_a_hut_molotov_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_nuke_a_hut_molotov.webm"
+                },
+                {
                     "title": "A lyhty",
                     "external": "https://csnades.gg/nuke/flashbangs/hut-from-lobby-a"
                 }
