@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Naatit</title>
+        <meta name="description" content="kun et muista miten ne heitetään...">
+        <meta name="author" content="Miikka Ylätalo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="site.css"> 
+        <script src="site.js"></script> 
+    </head>
+    <body lang="fi">
+        <div class="front">
+            <div class="container">
+                <div class="title-container">
+                    <h1>Naatit</h1>
+                    <span class="link-container">
+                        <span class="link"><a href="#">&#x1f517;</a></span>
+                    </span>
+                </div>
+                <div class="flavor">
+                    <p>kun et muista miten ne heitetään...</p>
+                </div>
+                <ul class="map-list">
+                    {% for map in maps %}
+                        <li><a href="#{{ map.name }}">{{ map.name }}</a></li>
+                        <ul>
+                            {% for video in map.videos %}
+                                <li><a href="#{{ map.name }}/{{ video.title }}">{{ video.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            {% for map in maps %}
+                <div class="title-container">
+                        <h2 id="{{ map.name }}">{{ map.name }}</h2>
+                        <span class="link-container">
+                            <span class="link"><a href="#{{ map.name }}">&#x1f517;</a></span>
+                        </span>
+                </div>
+                {% for video in map.videos %}
+                    <div class="mapvideo-container">
+                        <div class="title-container">
+                            <h3 id="{{ map.name }}/{{ video.title }}">{{ video.title }}</h3>
+                            <span class="link-container">
+                                <span class="link"><a href="#{{ map.name }}/{{ video.title }}">&#x1f517;</a></span>
+                            </span>
+                        </div>
+                        <div class="video-container" data-video="{{ video.full }}">
+                            <video loop autoplay muted playsinline preload="auto" class="thumbnail">
+                                <source src="{{ video.thumbnail }}" type="video/webm">
+                                Video ei toimi sun selaimella &#x3a;&#x28;
+                            </video>
+                            <div class="play-button">&#x25B6;</div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </body>
+</html>

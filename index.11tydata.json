@@ -1,0 +1,24 @@
+{
+    "maps": [
+        {
+            "name": "de_ancient",
+            "videos": [
+                {
+                    "title": "B execute",
+                    "thumbnail": "de_ancient_b_execute_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_ancient_b_execute.webm"
+                }
+            ]
+        },
+        {
+            "name": "de_nuke",
+            "videos": [
+                {
+                    "title": "Yhden miehen pihasavut",
+                    "thumbnail": "de_nuke_pihasavut_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_nuke_pihasavut.webm"
+                }
+            ]
+        }
+    ]
+}

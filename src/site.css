@@ -1,0 +1,151 @@
+:root {
+  --font-color: #dddddd;
+  --font-color-off: #acacac;
+  /* Base font size */
+  --font-size: 1.1rem;
+}
+
+body {
+  background-color: #2e2e2e;
+  color: var(--font-color);
+  padding-bottom: 300px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: var(--font-size);
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.map-list a {
+  text-decoration: none;
+}
+
+.map-list {
+  font-size: 1.5rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.map-list ul {
+  font-size: var(--font-size);
+}
+
+a {
+  color: #ff2c2caf;
+}
+
+a:link {
+  color: #ff2c2caf;
+}
+
+a:visited {
+  color: #ff4c4caf;
+}
+
+a:hover {
+  color: #ff0202af;
+}
+
+a:active {
+  color: #ff0202af;
+}
+
+.map-list {
+  margin-inline: auto;
+  width: fit-content;
+  max-width: 800px;
+}
+
+video {
+  max-width: 100%;
+  aspect-ratio: 16/9;
+}
+
+h1 {
+  text-align: center;
+}
+
+.front {
+  height: 100vh;
+  display: flex;
+}
+
+.front .container {
+  margin: auto;
+}
+
+video.full {
+  position: absolute;
+}
+
+.video-container {
+  position: relative;
+}
+
+.flavor {
+  width: fit-content;
+  margin-inline: auto;
+  font-style: italic;
+  color: var(--font-color-off);
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  cursor: pointer;
+
+  transition-duration: 0.25s;
+  transition-property: opacity;
+  opacity: 0.75;
+}
+
+.play-button:hover {
+  opacity: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.mapvideo-container {
+  margin-bottom: 4rem;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-container:hover .link {
+  opacity: 0.3;
+}
+
+.title-container .link {
+  position: absolute;
+  margin-left: 1.4rem;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+
+  transition-duration: 0.25s;
+  transition-property: opacity;
+}
+
+.title-container .link a {
+  text-decoration: none !important;
+}
+
+.title-container .link-container {
+  position: relative;
+}
