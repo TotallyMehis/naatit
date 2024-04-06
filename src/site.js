@@ -9,9 +9,13 @@ window.addEventListener('load', () => {
     video.controls = true
     video.autoplay = true
     video.muted = true
+    video.width = 1920
     video.classList.add('full')
-    parentElement.insertBefore(video, parentElement.firstElementChild)
+    parentElement.appendChild(video)
 
+    /** @type {HTMLVideoElement} */
+    const thumbVideo = parentElement.firstElementChild
+    thumbVideo.classList.add('hidden')
   }
 
   /** @this {HTMLAnchorElement} */

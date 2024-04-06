@@ -50,9 +50,8 @@
                             </span>
                         </div>
                         <div class="video-container" data-video="{{ video.full }}">
-                            <video loop autoplay muted playsinline preload="auto" class="thumbnail">
-                                <source src="{{ video.thumbnail }}" type="video/webm">
-                                Video ei toimi sun selaimella &#x3a;&#x28;
+                            <video loop autoplay muted playsinline preload="auto" class="thumbnail" src="{{ video.thumbnail }}">
+                                Video ei toimi sun selaimella &#x3a;&#x28; <a href="{{ video.full }}">Lataa tästä</a>
                             </video>
                             <div class="play-button">&#x25B6;</div>
                         </div>
