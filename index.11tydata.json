@@ -9,7 +9,7 @@
                     "full": "https://naatit-cdn.mehis.dev/de_ancient_b_execute.webm"
                 },
                 {
-                    "title": "Solo A savut",
+                    "title": "solo A savut",
                     "external": "https://csnades.gg/ancient/combinations/temple-ct-donut-tunnel-from-outside-a"
                 }
             ]
@@ -19,11 +19,11 @@
             "name": "anubis",
             "videos": [
                 {
-                    "title": "Solo B savut",
+                    "title": "solo B savut",
                     "external": "https://csnades.gg/anubis/combinations/b-site-back-site-ebox-from-ruins"
                 },
                 {
-                    "title": "Mid savu",
+                    "title": "mid savu",
                     "external": "https://csnades.gg/anubis/smokes/mid-from-t-spawn"
                 }
             ]
@@ -32,7 +32,7 @@
             "name": "nuke",
             "videos": [
                 {
-                    "title": "Solo pihasavut",
+                    "title": "solo pihasavut",
                     "thumbnail": "de_nuke_pihasavut_thumb.webm",
                     "full": "https://naatit-cdn.mehis.dev/de_nuke_pihasavut.webm"
                 },
@@ -54,6 +54,23 @@
                 {
                     "title": "A lyhty",
                     "external": "https://csnades.gg/nuke/flashbangs/hut-from-lobby-a"
+                }
+            ]
+        },
+        {
+            "name": "overpass",
+            "videos": [
+                {
+                    "title": "heaven savu",
+                    "external": "https://csnades.gg/overpass/smokes/heaven-from-water"
+                },
+                {
+                    "title": "B walkway savu",
+                    "external": "https://csnades.gg/overpass/smokes/walkway-from-water"
+                },
+                {
+                    "title": "A mid savu",
+                    "external": "https://csnades.gg/overpass/smokes/mid-a-site-from-divider-bench"
                 }
             ]
         },
