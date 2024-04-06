@@ -1,7 +1,7 @@
 {
     "maps": [
         {
-            "name": "de_ancient",
+            "name": "ancient",
             "videos": [
                 {
                     "title": "B execute",
@@ -16,7 +16,7 @@
         },
         
         {
-            "name": "de_anubis",
+            "name": "anubis",
             "videos": [
                 {
                     "title": "Solo B savut",
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "name": "de_nuke",
+            "name": "nuke",
             "videos": [
                 {
                     "title": "Solo pihasavut",
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "name": "de_vertigo",
+            "name": "vertigo",
             "videos": [
                 {
                     "title": "A vasen savu",
