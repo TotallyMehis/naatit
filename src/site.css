@@ -37,6 +37,10 @@ h2 {
   font-size: var(--font-size);
 }
 
+.map-list > li {
+  margin-bottom: 0.8rem;
+}
+
 a {
   color: #ff2c2caf;
 }
@@ -94,6 +98,10 @@ video.full {
 
 .video-container {
   position: relative;
+}
+
+.external {
+  text-align: center;
 }
 
 .flavor {

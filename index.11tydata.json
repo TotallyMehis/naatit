@@ -7,6 +7,24 @@
                     "title": "B execute",
                     "thumbnail": "de_ancient_b_execute_thumb.webm",
                     "full": "https://naatit-cdn.mehis.dev/de_ancient_b_execute.webm"
+                },
+                {
+                    "title": "Solo A savut",
+                    "external": "https://csnades.gg/ancient/combinations/temple-ct-donut-tunnel-from-outside-a"
+                }
+            ]
+        },
+        
+        {
+            "name": "de_anubis",
+            "videos": [
+                {
+                    "title": "Solo B savut",
+                    "external": "https://csnades.gg/anubis/combinations/b-site-back-site-ebox-from-ruins"
+                },
+                {
+                    "title": "Mid savu",
+                    "external": "https://csnades.gg/anubis/smokes/mid-from-t-spawn"
                 }
             ]
         },
@@ -14,9 +32,26 @@
             "name": "de_nuke",
             "videos": [
                 {
-                    "title": "Yhden miehen pihasavut",
+                    "title": "Solo pihasavut",
                     "thumbnail": "de_nuke_pihasavut_thumb.webm",
                     "full": "https://naatit-cdn.mehis.dev/de_nuke_pihasavut.webm"
+                },
+                {
+                    "title": "A lyhty",
+                    "external": "https://csnades.gg/nuke/flashbangs/hut-from-lobby-a"
+                }
+            ]
+        },
+        {
+            "name": "de_vertigo",
+            "videos": [
+                {
+                    "title": "A vasen savu",
+                    "external": "https://csnades.gg/vertigo/smokes/a-site-left-from-ramp"
+                },
+                {
+                    "title": "A oikea savu",
+                    "external": "https://csnades.gg/vertigo/smokes/a-site-right-from-ramp"
                 }
             ]
         }

@@ -23,12 +23,15 @@
                 </div>
                 <ul class="map-list">
                     {% for map in maps %}
-                        <li><a href="#{{ map.name }}">{{ map.name }}</a></li>
-                        <ul>
-                            {% for video in map.videos %}
-                                <li><a href="#{{ map.name }}/{{ video.title }}">{{ video.title }}</a></li>
-                            {% endfor %}
-                        </ul>
+                        <li>
+                            <a href="#{{ map.name }}">{{ map.name }}</a>
+                            <ul>
+                                {% for video in map.videos %}
+                                    <li><a href="#{{ map.name }}/{{ video.title }}">{{ video.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+
                     {% endfor %}
                 </ul>
             </div>
@@ -49,12 +52,17 @@
                                 <span class="link"><a href="#{{ map.name }}/{{ video.title }}">&#x1f517;</a></span>
                             </span>
                         </div>
-                        <div class="video-container" data-video="{{ video.full }}">
-                            <video loop autoplay muted playsinline preload="auto" class="thumbnail" src="{{ video.thumbnail }}">
-                                Video ei toimi sun selaimella &#x3a;&#x28; <a href="{{ video.full }}">Lataa tästä</a>
-                            </video>
-                            <div class="play-button">&#x25B6;</div>
-                        </div>
+                        {% if video.full and video.thumbnail %}
+                            <div class="video-container" data-video="{{ video.full }}">
+                                <video loop autoplay muted playsinline preload="auto" class="thumbnail" src="{{ video.thumbnail }}" width="1920">
+                                    Video ei toimi sun selaimella &#x3a;&#x28; <a href="{{ video.full }}">Lataa tästä</a>
+                                </video>
+                                <div class="play-button">&#x25B6;</div>
+                            </div>
+                        {% endif %}
+                        {% if video.external %}
+                            <div class="external"><a href="{{ video.external }}" target="_blank" rel="noreferrer">{{ video.external }}</a></div>
+                        {% endif %}
                     </div>
                 {% endfor %}
             {% endfor %}
