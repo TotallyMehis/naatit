@@ -1,5 +1,7 @@
 # Naatit
 
+[naatit.mehis.dev](https://naatit.mehis.dev)
+
 ## Build
 
 ```bash

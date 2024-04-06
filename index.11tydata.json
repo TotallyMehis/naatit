@@ -29,6 +29,19 @@
             ]
         },
         {
+            "name": "inferno",
+            "videos": [
+                {
+                    "title": "B savut",
+                    "external": "https://csnades.gg/inferno/combinations/ct-coffins-from-banana"
+                },
+                {
+                    "title": "boiler savu",
+                    "external": "https://csnades.gg/inferno/smokes/boiler-from-alt-mid"
+                }
+            ]
+        },
+        {
             "name": "nuke",
             "videos": [
                 {
