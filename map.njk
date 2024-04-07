@@ -33,7 +33,8 @@ permalink: "{{ map.name | slugify }}/"
                     </div>
                     {% if video.thumbnail %}
                         <div class="video-container" data-video="{{ video.full }}">
-                            <video loop autoplay muted playsinline preload="auto" class="thumbnail" src="{{ video.thumbnail }}" width="1920">
+                            <video loop autoplay muted playsinline preload="auto" class="thumbnail" width="1920">
+                                <source src="{{ video.thumbnail }}" type="video/webm">
                                 Video ei toimi sun selaimella &#x3a;&#x28;
                                 {% if video.full %}
                                     <a href="{{ video.full }}">Lataa tästä</a>

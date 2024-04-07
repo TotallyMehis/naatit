@@ -5,12 +5,17 @@ window.addEventListener('load', () => {
    */
   function createVideoElement(videoUrl, parentElement) {
     const video = document.createElement('video')
-    video.src = videoUrl
     video.controls = true
     video.autoplay = true
     video.muted = true
     video.width = 1920
     video.classList.add('full')
+    
+    const source = document.createElement('source')
+    source.type = 'video/webm'
+    source.src = videoUrl
+
+    video.appendChild(source)
     parentElement.appendChild(video)
 
     /** @type {HTMLVideoElement} */
