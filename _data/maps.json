@@ -63,6 +63,26 @@
         ]
     },
     {
+        "name": "mirage",
+        "videos": [
+            {
+                "title": "ikkuna savu",
+                "id": "ikkuna_savu",
+                "external": "https://csnades.gg/mirage/smokes/window-from-t-spawn-d"
+            },
+            {
+                "title": "solo A savut",
+                "id": "solo_a_savut",
+                "external": "https://csnades.gg/mirage/combinations/jungle-stairs-ticket-booth-from-a-ramp"
+            },
+            {
+                "title": "solo B savut",
+                "id": "solo_b_savut",
+                "external": "https://csnades.gg/mirage/combinations/window-door-bench-from-back-alley"
+            }
+        ]
+    },
+    {
         "name": "nuke",
         "videos": [
             {
