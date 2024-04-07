@@ -1,0 +1,57 @@
+---
+tags: map
+title: "{{ map.name }}"
+pagination:
+  data: maps
+  size: 1
+  alias: map
+permalink: "{{ map.name | slugify }}/"
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Naatit | {{ map.name }}</title>
+        <meta name="description" content="{{ map.name }} naatit">
+        <meta name="author" content="Miikka Ylätalo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/site.css"> 
+        <script src="/site.js"></script> 
+    </head>
+    <body lang="fi">
+        <div class="container">
+            <div class="title-container">
+                    <h2><a href="#">{{ map.name }}</a></h2>
+            </div>
+            {% for video in map.videos %}
+                <div class="mapvideo-container">
+                    <div class="title-container">
+                        <h3 id="{{ video.id }}">{{ video.title }}</h3>
+                        <span class="link-container">
+                            <span class="link"><a href="#{{ video.id }}">&#x1f517;</a></span>
+                        </span>
+                    </div>
+                    {% if video.thumbnail %}
+                        <div class="video-container" data-video="{{ video.full }}">
+                            <video loop autoplay muted playsinline preload="auto" class="thumbnail" src="{{ video.thumbnail }}" width="1920">
+                                Video ei toimi sun selaimella &#x3a;&#x28;
+                                {% if video.full %}
+                                    <a href="{{ video.full }}">Lataa tästä</a>
+                                {% endif %}
+                            </video>
+                            {% if video.full %}
+                                <div class="play-button">&#x25B6;</div>
+                            {% endif %}
+                        </div>
+                        {% if video.video_comment %}
+                            <p class="comment">{{ video.video_comment }}</p>
+                        {% endif %}
+                    {% endif %}
+                    {% if video.external %}
+                        <div class="external"><a href="{{ video.external }}" target="_blank" rel="noreferrer">{{ video.external }}</a></div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </body>
+</html>
