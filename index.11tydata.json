@@ -4,12 +4,15 @@
             "name": "ancient",
             "videos": [
                 {
-                    "title": "B execute",
+                    "title": "solo B execute",
+                    "id": "solo_b_execute",
                     "thumbnail": "de_ancient_b_execute_thumb.webm",
-                    "full": "https://naatit-cdn.mehis.dev/de_ancient_b_execute.webm"
+                    "full": "https://naatit-cdn.mehis.dev/de_ancient_b_execute.webm",
+                    "video_comment": "Lyhdyt on suojassa teroilta."
                 },
                 {
                     "title": "solo A savut",
+                    "id": "solo_a_savut",
                     "external": "https://csnades.gg/ancient/combinations/temple-ct-donut-tunnel-from-outside-a"
                 }
             ]
@@ -20,10 +23,12 @@
             "videos": [
                 {
                     "title": "solo B savut",
+                    "id": "solo_b_savut",
                     "external": "https://csnades.gg/anubis/combinations/b-site-back-site-ebox-from-ruins"
                 },
                 {
                     "title": "mid savu",
+                    "id": "mid_savu",
                     "external": "https://csnades.gg/anubis/smokes/mid-from-t-spawn"
                 }
             ]
@@ -32,12 +37,29 @@
             "name": "inferno",
             "videos": [
                 {
-                    "title": "B savut",
-                    "external": "https://csnades.gg/inferno/combinations/ct-coffins-from-banana"
+                    "title": "solo B savut",
+                    "id": "solo_b_savut",
+                    "thumbnail": "de_inferno_b_smokes_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_inferno_b_smokes.webm",
+                    "video_comment": "#2 heitetään kyykyssä"
                 },
                 {
                     "title": "boiler savu",
-                    "external": "https://csnades.gg/inferno/smokes/boiler-from-alt-mid"
+                    "id": "boiler_savu",
+                    "thumbnail": "de_inferno_boiler_smoke_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_inferno_boiler_smoke.webm"
+                },
+                {
+                    "title": "mid arch savu",
+                    "id": "mid_arch_savu",
+                    "thumbnail": "de_inferno_mid_arch_side_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_inferno_mid_arch_side.webm"
+                },
+                {
+                    "title": "library savu",
+                    "id": "library_savu",
+                    "thumbnail": "de_inferno_library_smoke_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_inferno_library_smoke.webm"
                 }
             ]
         },
@@ -45,27 +67,33 @@
             "name": "nuke",
             "videos": [
                 {
-                    "title": "solo pihasavut",
+                    "title": "solo piha savut",
+                    "id": "solo_piha_savut",
                     "thumbnail": "de_nuke_pihasavut_thumb.webm",
                     "full": "https://naatit-cdn.mehis.dev/de_nuke_pihasavut.webm"
                 },
                 {
                     "title": "A siilo savu",
+                    "id": "a_siilo_savu",
                     "thumbnail": "de_nuke_a_silo_smoke_thumb.webm",
                     "full": "https://naatit-cdn.mehis.dev/de_nuke_a_silo_smoke.webm"
                 },
                 {
                     "title": "A hut savu",
+                    "id": "a_hut_savu",
                     "thumbnail": "de_nuke_a_hut_smoke_thumb.webm",
                     "full": "https://naatit-cdn.mehis.dev/de_nuke_a_hut_smoke.webm"
                 },
                 {
                     "title": "A hut molo",
+                    "id": "a_hut_molotov",
                     "thumbnail": "de_nuke_a_hut_molotov_thumb.webm",
-                    "full": "https://naatit-cdn.mehis.dev/de_nuke_a_hut_molotov.webm"
+                    "full": "https://naatit-cdn.mehis.dev/de_nuke_a_hut_molotov.webm",
+                    "video_comment": "Muista ottaa kunnolla vauhtia. Aika vaikee... :F"
                 },
                 {
                     "title": "A lyhty",
+                    "id": "a_hut_lyhty",
                     "external": "https://csnades.gg/nuke/flashbangs/hut-from-lobby-a"
                 }
             ]
@@ -75,15 +103,22 @@
             "videos": [
                 {
                     "title": "heaven savu",
-                    "external": "https://csnades.gg/overpass/smokes/heaven-from-water"
+                    "id": "heaven_savu",
+                    "thumbnail": "de_overpass_heaven_smoke_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_overpass_heaven_smoke.webm"
                 },
                 {
                     "title": "B walkway savu",
-                    "external": "https://csnades.gg/overpass/smokes/walkway-from-water"
+                    "id": "b_walkway_savu",
+                    "thumbnail": "de_overpass_b_walkway_smoke_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_overpass_b_walkway_smoke.webm",
+                    "video_comment": "Tähtää samaan paikkaan kuin heaven savu, mutta vähän ylemmäs."
                 },
                 {
                     "title": "A mid savu",
-                    "external": "https://csnades.gg/overpass/smokes/mid-a-site-from-divider-bench"
+                    "id": "a_mid_savu",
+                    "thumbnail": "de_overpass_a_mid_smoke_thumb.webm",
+                    "full": "https://naatit-cdn.mehis.dev/de_overpass_a_mid_smoke.webm"
                 }
             ]
         },
@@ -92,10 +127,12 @@
             "videos": [
                 {
                     "title": "A vasen savu",
+                    "id": "a_vasen_savu",
                     "external": "https://csnades.gg/vertigo/smokes/a-site-left-from-ramp"
                 },
                 {
                     "title": "A oikea savu",
+                    "id": "a_oikea_savu",
                     "external": "https://csnades.gg/vertigo/smokes/a-site-right-from-ramp"
                 }
             ]

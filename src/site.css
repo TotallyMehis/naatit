@@ -23,6 +23,11 @@ h2 {
   font-size: 2rem;
 }
 
+h1 a {
+  text-decoration: none;
+  color: var(--font-color) !important;
+}
+
 .map-list a {
   text-decoration: none;
 }
@@ -135,6 +140,11 @@ video.full {
 
 .mapvideo-container {
   margin-bottom: 4rem;
+}
+
+.mapvideo-container .comment {
+  text-align: center;
+  color: var(--font-color-off);
 }
 
 .title-container {

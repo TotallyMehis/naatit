@@ -33,8 +33,8 @@ window.addEventListener('load', () => {
   /** @type {NodeListOf<HTMLDivElement>} */
   const videoContainers = document.querySelectorAll('.video-container')
   for (const videoContainer of videoContainers) {
-    const video = videoContainer.getAttribute('data-video')
-    if (!video) {
+    const fullVideoUrl = videoContainer.getAttribute('data-video')
+    if (!fullVideoUrl) {
       continue;
     }
 
@@ -42,7 +42,7 @@ window.addEventListener('load', () => {
     const playButton = videoContainer.querySelector('.play-button')
 
     playButton.addEventListener('click', () => {
-      createVideoElement(video, videoContainer)
+      createVideoElement(fullVideoUrl, videoContainer)
       playButton.remove()
     })
   }
