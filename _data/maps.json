@@ -127,12 +127,28 @@
             {
                 "title": "A vasen savu",
                 "id": "a_vasen_savu",
-                "external": "https://csnades.gg/vertigo/smokes/a-site-left-from-ramp"
+                "thumbnail": "/de_vertigo_a_vasen_savu_thumb.webm",
+                "full": "https://naatit-cdn.mehis.dev/de_vertigo_a_vasen_savu.webm"
             },
             {
                 "title": "A oikea savu",
                 "id": "a_oikea_savu",
-                "external": "https://csnades.gg/vertigo/smokes/a-site-right-from-ramp"
+                "thumbnail": "/de_vertigo_a_oikea_savu_thumb.webm",
+                "full": "https://naatit-cdn.mehis.dev/de_vertigo_a_oikea_savu.webm"
+            },
+            {
+                "title": "B vasen savu",
+                "id": "b_vasen_savu",
+                "thumbnail": "/de_vertigo_b_vasen_savu_thumb.webm",
+                "full": "https://naatit-cdn.mehis.dev/de_vertigo_b_vasen_savu.webm",
+                "video_comment": "Tähdätään kaiteiden väliin. Kyykkyheitto."
+            },
+            {
+                "title": "B oikea savu",
+                "id": "b_oikea_savu",
+                "thumbnail": "/de_vertigo_b_oikea_savu_thumb.webm",
+                "full": "https://naatit-cdn.mehis.dev/de_vertigo_b_oikea_savu.webm",
+                "video_comment": "Tähdätään kyykyssä ja noustaan heittoa varten :)"
             }
         ]
     }
