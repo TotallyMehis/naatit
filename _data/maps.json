@@ -36,11 +36,31 @@
         "name": "inferno",
         "videos": [
             {
+                "title": "B coffin savu",
+                "id": "b_coffin_savu",
+                "thumbnail": "/de_inferno_b_coffin_smoke_thumb.webm",
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_b_coffin_smoke.webm",
+                "video_comment": "Vasen + oikea klikkaus"
+            },
+            {
+                "title": "B dark molo",
+                "id": "b_dark_molotov",
+                "thumbnail": "/de_inferno_b_dark_molo_thumb.webm",
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_b_dark_molo.webm"
+            },
+            {
                 "title": "solo B savut",
                 "id": "solo_b_savut",
                 "thumbnail": "/de_inferno_b_smokes_thumb.webm",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_smokes.webm",
                 "video_comment": "#2 heitetään kyykyssä"
+            },
+            {
+                "title": "B hieno ct savu",
+                "id": "b_hieno_ct_savu",
+                "thumbnail": "/de_inferno_b_nice_ct_smoke_thumb.webm",
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_b_nice_ct_smoke.webm",
+                "video_comment": "Vähän oikealle katon reunasta. Aika tarkka, mutta ei haittaa vaikka menee ohi. :)"
             },
             {
                 "title": "boiler savu",
@@ -90,6 +110,20 @@
                 "id": "solo_piha_savut",
                 "thumbnail": "/de_nuke_pihasavut_thumb.webm",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_pihasavut.webm"
+            },
+            {
+                "title": "main savu",
+                "id": "a_main_savu",
+                "thumbnail": "/de_nuke_main_smoke_thumb.webm",
+                "full": "https://naatit-cdn.mehis.dev/de_nuke_main_smoke.webm",
+                "video_comment": "Vasen + oikea klikkaus"
+            },
+            {
+                "title": "A katto lyhty",
+                "id": "a_katto_lyhty",
+                "thumbnail": "/de_nuke_a_flash_thumb.webm",
+                "full": "https://naatit-cdn.mehis.dev/de_nuke_a_flash.webm",
+                "video_comment": "Samasta paikasta kuin main savu."
             },
             {
                 "title": "A siilo savu",
