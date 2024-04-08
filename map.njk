@@ -33,13 +33,17 @@ permalink: "{{ map.name | slugify }}/"
                     </div>
                     {% if video.thumbnail %}
                         <div class="video-container" data-video="{{ video.full }}">
-                            <video loop autoplay muted playsinline preload="auto" class="thumbnail" width="1920">
-                                <source src="{{ video.thumbnail }}" type="video/webm">
-                                Video ei toimi sun selaimella &#x3a;&#x28;
-                                {% if video.full %}
-                                    <a href="{{ video.full }}">Lataa tästä</a>
-                                {% endif %}
-                            </video>
+                            {% if video.thumbnail_image %}
+                                <img src="{{ video.thumbnail }}" width="1920" class="thumbnail">
+                            {% else %}
+                                <video loop autoplay muted playsinline preload="auto" class="thumbnail" width="1920">
+                                    <source src="{{ video.thumbnail }}" type="video/webm">
+                                    Video ei toimi sun selaimella &#x3a;&#x28;
+                                    {% if video.full %}
+                                        <a href="{{ video.full }}">Lataa tästä</a>
+                                    {% endif %}
+                                </video>
+                            {% endif %}
                             {% if video.full %}
                                 <div class="play-button">&#x25B6;</div>
                             {% endif %}

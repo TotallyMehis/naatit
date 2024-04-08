@@ -18,9 +18,9 @@ window.addEventListener('load', () => {
     video.appendChild(source)
     parentElement.appendChild(video)
 
-    /** @type {HTMLVideoElement} */
-    const thumbVideo = parentElement.firstElementChild
-    thumbVideo.classList.add('hidden')
+    /** @type {HTMLVideoElement|HTMLImageElement} */
+    const thumbnail = parentElement.firstElementChild
+    thumbnail.classList.add('hidden')
   }
 
   /** @this {HTMLAnchorElement} */

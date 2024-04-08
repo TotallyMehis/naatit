@@ -76,7 +76,7 @@ a:active {
   max-width: 800px;
 }
 
-video {
+video, .thumbnail {
   max-width: 100%;
   aspect-ratio: 16/9;
 }
@@ -94,8 +94,11 @@ h1 {
   margin: auto;
 }
 
-video.thumbnail.hidden {
+.thumbnail.hidden {
   opacity: 0;
+}
+
+video.thumbnail.hidden {
   pointer-events: none;
 }
 
