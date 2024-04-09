@@ -46,7 +46,8 @@
                 "title": "B dark molo",
                 "id": "b_dark_molotov",
                 "thumbnail": "/de_inferno_b_dark_molo_thumb.webm",
-                "full": "https://naatit-cdn.mehis.dev/de_inferno_b_dark_molo.webm"
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_b_dark_molo.webm",
+                "video_comment": "Tähtää vasemmalle pikku pisteestä. Vähän vaikeata nähdä videossa."
             },
             {
                 "title": "solo B savut",
@@ -61,6 +62,29 @@
                 "thumbnail": "/de_inferno_b_nice_ct_smoke_thumb.webm",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_nice_ct_smoke.webm",
                 "video_comment": "Vähän oikealle katon reunasta. Aika tarkka, mutta ei haittaa vaikka menee ohi. :)"
+            },
+            {
+                "title": "B newbox molo",
+                "id": "b_newbox_molotov",
+                "thumbnail": "/de_inferno_b_newbox_molotov_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_b_newbox_molotov.webm",
+                "video_comment": "Tähtää vähän alemmas mustasta läikästä."
+            },
+            {
+                "title": "B orange molo",
+                "id": "b_orange_molotov",
+                "thumbnail": "/de_inferno_b_1st_2nd_molotov_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_b_1st_2nd_molotov.webm"
+            },
+            {
+                "title": "auto savu",
+                "id": "banana_auto_savu",
+                "thumbnail": "/de_inferno_banana_car_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_banana_car_smoke.webm",
+                "video_comment": "Kannattaa tähdätä vähän alemmas tuosta kulmasta, ylemmäs ei pysty tähdätä."
             },
             {
                 "title": "boiler savu",
