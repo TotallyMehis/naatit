@@ -10,6 +10,28 @@
                 "video_comment": "Lyhdyt on suojassa teroilta."
             },
             {
+                "title": "B oikea savu",
+                "id": "b_oikea_savu",
+                "thumbnail": "/de_ancient_b_oikea_savu_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_ancient_b_oikea_savu.webm",
+                "video_comment": "Tähtää keskellä isoa kiveä, sen verran oikealle ettet osu siihen."
+            },
+            {
+                "title": "ct ovet savu",
+                "id": "ct_doors",
+                "thumbnail": "/de_ancient_t_spawn_mid_door_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_ancient_t_spawn_mid_door_smoke.webm"
+            },
+            {
+                "title": "mid donut savu",
+                "id": "mid_donut_savu",
+                "thumbnail": "/de_ancient_mid_donut_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_ancient_mid_donut_smoke.webm"
+            },
+            {
                 "title": "solo A savut",
                 "id": "solo_a_savut",
                 "external": "https://csnades.gg/ancient/combinations/temple-ct-donut-tunnel-from-outside-a"
@@ -28,7 +50,15 @@
             {
                 "title": "mid savu",
                 "id": "mid_savu",
-                "external": "https://csnades.gg/anubis/smokes/mid-from-t-spawn"
+                "thumbnail": "/de_anubis_t_spawn_mid_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_anubis_t_spawn_mid_smoke.webm",
+                "video_comment": "Tähtää vähän oikealle reunasta."
+            },
+            {
+                "title": "A heaven savu",
+                "id": "a_heaven_savu",
+                "external": "https://csnades.gg/anubis/smokes/heaven-from-water-b"
             }
         ]
     },
@@ -228,6 +258,22 @@
                 "thumbnail": "/de_vertigo_b_oikea_savu_thumb.webm",
                 "full": "https://naatit-cdn.mehis.dev/de_vertigo_b_oikea_savu.webm",
                 "video_comment": "Tähdätään kyykyssä ja noustaan heittoa varten :)"
+            },
+            {
+                "title": "B connector savu/molo",
+                "id": "b_connector_savu_molo",
+                "thumbnail": "/de_vertigo_b_connector_smoke_molo_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_vertigo_b_connector_smoke_molo.webm",
+                "video_comment": "Voi seistä tai olla kyykyssä. Kyykky parempi ettei connector pelaaja ammu päähä :)"
+            },
+            {
+                "title": "top mid savu",
+                "id": "top_mid_savu",
+                "thumbnail": "/de_vertigo_top_mid_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_vertigo_top_mid_smoke.webm",
+                "video_comment": "Tähtää vähän vasemmalle lankkujen keskeltä. Kannattaa olla tarkka, ct voi kurkkia savun oikealta puolelta tai sen yli."
             }
         ]
     }
