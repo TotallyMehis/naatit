@@ -66,6 +66,13 @@
         "name": "inferno",
         "videos": [
             {
+                "title": "B valo",
+                "id": "b_flash",
+                "thumbnail": "/de_inferno_b_flash_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_b_flash.webm"
+            },
+            {
                 "title": "B coffin savu",
                 "id": "b_coffin_savu",
                 "thumbnail": "/de_inferno_b_coffin_smoke_thumb.webm",
@@ -117,22 +124,57 @@
                 "video_comment": "Kannattaa tähdätä vähän alemmas tuosta kulmasta, ylemmäs ei pysty tähdätä."
             },
             {
+                "title": "mid savu",
+                "id": "mid_smoke",
+                "thumbnail": "/de_inferno_mid_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_mid_smoke.webm"
+            },
+            {
                 "title": "boiler savu",
                 "id": "boiler_savu",
                 "thumbnail": "/de_inferno_boiler_smoke_thumb.webm",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_boiler_smoke.webm"
             },
             {
-                "title": "mid arch savu",
+                "title": "mid arch-puolen savu",
                 "id": "mid_arch_savu",
                 "thumbnail": "/de_inferno_mid_arch_side_thumb.webm",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_mid_arch_side.webm"
+            },
+            {
+                "title": "bracket valo",
+                "id": "bracket_flash",
+                "thumbnail": "/de_inferno_bracket_flash_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_bracket_flash.webm"
+            },
+            {
+                "title": "mid mid savu",
+                "id": "mid_mid_smoke",
+                "thumbnail": "/de_inferno_mid_mid_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_mid_mid_smoke.webm"
+            },
+            {
+                "title": "moto savu",
+                "id": "moto_smoke",
+                "thumbnail": "/de_inferno_moto_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_moto_smoke.webm"
             },
             {
                 "title": "library savu",
                 "id": "library_savu",
                 "thumbnail": "/de_inferno_library_smoke_thumb.webm",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_library_smoke.webm"
+            },
+            {
+                "title": "rekka savu",
+                "id": "truck_smoke",
+                "thumbnail": "/de_inferno_a_truck_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_a_truck_smoke.webm"
             }
         ]
     },
@@ -171,14 +213,16 @@
                 "id": "a_main_savu",
                 "thumbnail": "/de_nuke_main_smoke_thumb.webm",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_main_smoke.webm",
-                "video_comment": "Vasen + oikea klikkaus"
+                "video_comment": "Vasen + oikea klikkaus",
+                "hidden": true
             },
             {
                 "title": "A katto lyhty",
                 "id": "a_katto_lyhty",
                 "thumbnail": "/de_nuke_a_flash_thumb.webm",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_a_flash.webm",
-                "video_comment": "Samasta paikasta kuin main savu."
+                "video_comment": "Samasta paikasta kuin main savu.",
+                "hidden": true
             },
             {
                 "title": "A siilo savu",
@@ -208,6 +252,7 @@
     },
     {
         "name": "overpass",
+        "hidden": true,
         "videos": [
             {
                 "title": "heaven savu",

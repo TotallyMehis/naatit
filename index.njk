@@ -19,14 +19,18 @@
                 </div>
                 <ul class="map-list">
                     {% for map in maps %}
-                        <li>
-                            <a href="/{{ map.name | slugify }}/">{{ map.name }}</a>
-                            <ul>
-                                {% for video in map.videos %}
-                                    <li><a href="/{{ map.name | slugify }}/#{{ video.id }}">{{ video.title }}</a></li>
-                                {% endfor %}
-                            </ul>
-                        </li>
+                        {% if not map.hidden %}
+                            <li>
+                                <a href="/{{ map.name | slugify }}/">{{ map.name }}</a>
+                                <ul>
+                                    {% for video in map.videos %}
+                                        {% if not video.hidden %}
+                                            <li><a href="/{{ map.name | slugify }}/#{{ video.id }}">{{ video.title }}</a></li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
             </div>
