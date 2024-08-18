@@ -1,3 +1,7 @@
 node_modules
 _site
 .vscode
+*.log
+recording/*.webm
+recording/*.avif
+recording/*.mp4
