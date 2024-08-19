@@ -38,7 +38,6 @@
             }
         ]
     },
-    
     {
         "name": "anubis",
         "videos": [
@@ -59,6 +58,70 @@
                 "title": "A heaven savu",
                 "id": "a_heaven_savu",
                 "external": "https://csnades.gg/anubis/smokes/heaven-from-water-b"
+            }
+        ]
+    },
+    {
+        "name": "dust2",
+        "videos": [
+            {
+                "title": "A cross savu",
+                "id": "cross_smoke",
+                "thumbnail": "/de_dust2_a_cross_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_a_cross_smoke.webm",
+                "video_comment": "Ei niin tarkka, kunhan menee seinän yli :P"
+            },
+            {
+                "title": "B ovet savu",
+                "id": "b_doors_smoke",
+                "thumbnail": "/de_dust2_b_doors_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_b_doors_smoke.webm"
+            },
+            {
+                "title": "B ikkuna savu",
+                "id": "b_window_smoke",
+                "thumbnail": "/de_dust2_b_window_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_b_window_smoke.webm",
+                "video_comment": "Tähtää kahden pisteen väliin. Ei niin tarkka."
+            },
+            {
+                "title": "ct mid valo",
+                "id": "ct_mid_flash",
+                "thumbnail": "/de_dust2_ct_mid_flash_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_ct_mid_flash.webm"
+            },
+            {
+                "title": "ct savu",
+                "id": "ct_smoke",
+                "thumbnail": "/de_dust2_ct_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_ct_smoke.webm"
+            },
+            {
+                "title": "ct savu (helppo)",
+                "id": "ct_smokeeasy",
+                "thumbnail": "/de_dust2_ct_smokeeasy_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_ct_smokeeasy.webm",
+                "video_comment": "Helpompi versio, mutta CTeet näkee savun yli helposti."
+            },
+            {
+                "title": "long ovet savu",
+                "id": "long_doors_smoke",
+                "thumbnail": "/de_dust2_long_doors_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_long_doors_smoke.webm"
+            },
+            {
+                "title": "xbox / ct ovet savu",
+                "id": "xbox_smoke",
+                "thumbnail": "/de_dust2_xbox_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_xbox_smoke.webm"
             }
         ]
     },
