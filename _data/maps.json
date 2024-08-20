@@ -5,7 +5,8 @@
             {
                 "title": "solo B execute",
                 "id": "solo_b_execute",
-                "thumbnail": "/de_ancient_b_execute_thumb.webm",
+                "thumbnail": "/de_ancient_b_execute_thumb.avif",
+                "thumbnail_image": true,
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_b_execute.webm",
                 "video_comment": "Lyhdyt on suojassa teroilta."
             },
@@ -171,28 +172,32 @@
             {
                 "title": "B coffin savu",
                 "id": "b_coffin_savu",
-                "thumbnail": "/de_inferno_b_coffin_smoke_thumb.webm",
+                "thumbnail": "/de_inferno_b_coffin_smoke_thumb.avif",
+                "thumbnail_image": true,
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_coffin_smoke.webm",
                 "video_comment": "Vasen + oikea klikkaus"
             },
             {
                 "title": "B dark molo",
                 "id": "b_dark_molotov",
-                "thumbnail": "/de_inferno_b_dark_molo_thumb.webm",
+                "thumbnail": "/de_inferno_b_dark_molo_thumb.avif",
+                "thumbnail_image": true,
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_dark_molo.webm",
                 "video_comment": "Tähtää vasemmalle pikku pisteestä. Vähän vaikeata nähdä videossa."
             },
             {
                 "title": "solo B savut",
                 "id": "solo_b_savut",
-                "thumbnail": "/de_inferno_b_smokes_thumb.webm",
+                "thumbnail": "/de_inferno_b_smokes_thumb.avif",
+                "thumbnail_image": true,
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_smokes.webm",
                 "video_comment": "#2 heitetään kyykyssä"
             },
             {
                 "title": "B hieno ct savu",
                 "id": "b_hieno_ct_savu",
-                "thumbnail": "/de_inferno_b_nice_ct_smoke_thumb.webm",
+                "thumbnail": "/de_inferno_b_nice_ct_smoke_thumb.avif",
+                "thumbnail_image": true,
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_nice_ct_smoke.webm",
                 "video_comment": "Vähän oikealle katon reunasta. Aika tarkka, mutta ei haittaa vaikka menee ohi. :)"
             },
@@ -229,13 +234,15 @@
             {
                 "title": "boiler savu",
                 "id": "boiler_savu",
-                "thumbnail": "/de_inferno_boiler_smoke_thumb.webm",
+                "thumbnail": "/de_inferno_boiler_smoke_thumb.avif",
+                "thumbnail_image": true,
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_boiler_smoke.webm"
             },
             {
                 "title": "mid arch-puolen savu",
                 "id": "mid_arch_savu",
-                "thumbnail": "/de_inferno_mid_arch_side_thumb.webm",
+                "thumbnail": "/de_inferno_mid_arch_side_thumb.avif",
+                "thumbnail_image": true,
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_mid_arch_side.webm"
             },
             {
@@ -262,11 +269,12 @@
             {
                 "title": "library savu",
                 "id": "library_savu",
-                "thumbnail": "/de_inferno_library_smoke_thumb.webm",
+                "thumbnail": "/de_inferno_library_smoke_thumb.avif",
+                "thumbnail_image": true,
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_library_smoke.webm"
             },
             {
-                "title": "rekka savu",
+                "title": "auto savu",
                 "id": "truck_smoke",
                 "thumbnail": "/de_inferno_a_truck_smoke_thumb.avif",
                 "thumbnail_image": true,
