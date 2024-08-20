@@ -42,22 +42,55 @@
         "name": "anubis",
         "videos": [
             {
-                "title": "solo B savut",
-                "id": "solo_b_savut",
-                "external": "https://csnades.gg/anubis/combinations/b-site-back-site-ebox-from-ruins"
+                "title": "A main savu",
+                "id": "a_main_smoke",
+                "thumbnail": "/de_anubis_a_main_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_anubis_a_main_smoke.webm"
+            },
+            {
+                "title": "A heaven savu",
+                "id": "a_heaven_smoke",
+                "thumbnail": "/de_anubis_a_heaven_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_anubis_a_heaven_smoke.webm"
+            },
+            {
+                "title": "A solo execute",
+                "id": "a_solo_execute",
+                "thumbnail": "/de_anubis_a_solo_execute_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_anubis_a_solo_execute.webm"
+            },
+            {
+                "title": "B solo savut",
+                "id": "solo_b_smokes",
+                "thumbnail": "/de_anubis_b_solo_smokes_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_anubis_b_solo_smokes.webm",
+                "video_comment": "Ensimmäinen ja kolmas on aika tarkkoja."
+            },
+            {
+                "title": "B konnu savu",
+                "id": "b_connector_smoke",
+                "thumbnail": "/de_anubis_b_connector_smoke_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_anubis_b_connector_smoke.webm"
             },
             {
                 "title": "mid savu",
-                "id": "mid_savu",
+                "id": "mid_smoke",
                 "thumbnail": "/de_anubis_t_spawn_mid_smoke_thumb.avif",
                 "thumbnail_image": true,
                 "full": "https://naatit-cdn.mehis.dev/de_anubis_t_spawn_mid_smoke.webm",
                 "video_comment": "Tähtää vähän oikealle reunasta."
             },
             {
-                "title": "A heaven savu",
-                "id": "a_heaven_savu",
-                "external": "https://csnades.gg/anubis/smokes/heaven-from-water-b"
+                "title": "mid molotov",
+                "id": "mid_molotov",
+                "thumbnail": "/de_anubis_mid_molotov_thumb.avif",
+                "thumbnail_image": true,
+                "full": "https://naatit-cdn.mehis.dev/de_anubis_mid_molotov.webm"
             }
         ]
     },
