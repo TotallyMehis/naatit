@@ -297,14 +297,29 @@
         "name": "nuke",
         "videos": [
             {
+                "title": "ct piha savu",
+                "id": "ct_outside_smoke",
+                "thumbnail": "/de_nuke_ct_outside_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_nuke_ct_outside_smoke.webm",
+                "video_comment": "Tähtää alimmaiseen sähköjohtoon."
+            },
+            {
                 "title": "solo piha savut",
-                "id": "solo_piha_savut",
+                "id": "solo_outside_smokes",
                 "thumbnail": "/de_nuke_pihasavut_thumb.avif",
-                "full": "https://naatit-cdn.mehis.dev/de_nuke_pihasavut.webm"
+                "full": "https://naatit-cdn.mehis.dev/de_nuke_pihasavut.webm",
+                "video_comment": "Tällä pääsee secretiin ilman että CTeet tietää."
+            },
+            {
+                "title": "solo piha savut v2",
+                "id": "solo_outside_smokes2",
+                "thumbnail": "/de_nuke_outside_smokes2_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_nuke_outside_smokes2.webm",
+                "video_comment": "Pitää muistaa, että heaven näkee pihan."
             },
             {
                 "title": "main savu",
-                "id": "a_main_savu",
+                "id": "a_main_smoke",
                 "thumbnail": "/de_nuke_main_smoke_thumb.webm",
                 "thumbnail_video": true,
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_main_smoke.webm",
@@ -313,7 +328,13 @@
             },
             {
                 "title": "A katto lyhty",
-                "id": "a_katto_lyhty",
+                "id": "a_roof_flash",
+                "thumbnail": "/de_nuke_a_roof_flash_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_nuke_a_roof_flash.webm"
+            },
+            {
+                "title": "A katto lyhty",
+                "id": "a_roof_flash2",
                 "thumbnail": "/de_nuke_a_flash_thumb.webm",
                 "thumbnail_video": true,
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_a_flash.webm",
@@ -322,29 +343,26 @@
             },
             {
                 "title": "A siilo savu",
-                "id": "a_siilo_savu",
-                "thumbnail": "/de_nuke_a_silo_smoke_thumb.webm",
-                "thumbnail_video": true,
+                "id": "a_silo_smoke",
+                "thumbnail": "/de_nuke_a_silo_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_a_silo_smoke.webm"
             },
             {
-                "title": "A hut savu",
-                "id": "a_hut_savu",
-                "thumbnail": "/de_nuke_a_hut_smoke_thumb.webm",
-                "thumbnail_video": true,
+                "title": "A hut etusavu",
+                "id": "a_hut_front_smoke",
+                "thumbnail": "/de_nuke_a_hut_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_a_hut_smoke.webm"
             },
             {
                 "title": "A hut molo",
                 "id": "a_hut_molotov",
-                "thumbnail": "/de_nuke_a_hut_molotov_thumb.webm",
-                "thumbnail_video": true,
+                "thumbnail": "/de_nuke_a_hut_molotov_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_a_hut_molotov.webm",
                 "video_comment": "Muista ottaa kunnolla vauhtia. Aika vaikee... :F"
             },
             {
                 "title": "A lyhty",
-                "id": "a_hut_lyhty",
+                "id": "a_hut_flash",
                 "external": "https://csnades.gg/nuke/flashbangs/hut-from-lobby-a"
             }
         ]
