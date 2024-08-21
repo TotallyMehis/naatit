@@ -34,7 +34,7 @@ permalink: "{{ map.name | slugify }}/"
                         </div>
                         {% if video.thumbnail %}
                             <div class="video-container" data-video="{{ video.full }}">
-                                {% if video.thumbnail_image %}
+                                {% if not video.thumbnail_video %}
                                     <img src="{{ video.thumbnail }}" width="1920" class="thumbnail">
                                 {% else %}
                                     <video loop autoplay muted playsinline preload="auto" class="thumbnail" width="1920">
