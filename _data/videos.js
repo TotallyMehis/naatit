@@ -67,7 +67,7 @@ async function mapFileToVideos(maps) {
    * @returns {string | undefined}
    */
   const getEmbedThumbnail = (mainThumbnailFile) => {
-    const baseFilename = getBaseFilenameOfThumbnail(video.thumbnail)
+    const baseFilename = getBaseFilenameOfThumbnail(mainThumbnailFile)
     const embedThumbnailName = baseFilename + '.webp'
 
     const hasEmbedThumbnail = thumbnailFiles.some(filename => filename === embedThumbnailName)
@@ -92,7 +92,7 @@ async function mapFileToVideos(maps) {
         continue
       }
 
-      const thumbnail_embed = getEmbedThumbnail()
+      const thumbnail_embed = getEmbedThumbnail(video.thumbnail)
 
       output.push({
         title: video.title,
