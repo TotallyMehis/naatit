@@ -274,6 +274,7 @@
             {
                 "title": "main savu",
                 "thumbnail": "/de_nuke_roof_main_smoke2_thumb.avif",
+                "thumbnail_embed": "/de_nuke_roof_main_smoke2_thumb.webp",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_roof_main_smoke2.webm",
                 "description": "Vasen + oikea klikkaus"
             },

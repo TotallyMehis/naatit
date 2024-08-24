@@ -13,6 +13,7 @@ const fs = require('fs').promises
  * @type {object}
  * @property {string} title
  * @property {string} thumbnail
+ * @property {string} thumbnail_embed
  * @property {boolean | undefined} thumbnail_video
  * @property {string} full
  * @property {string} external
@@ -25,6 +26,7 @@ const fs = require('fs').promises
  * @type {object}
  * @property {string} title
  * @property {string} thumbnail
+ * @property {string} thumbnail_embed
  * @property {boolean | undefined} thumbnail_video
  * @property {string} full
  * @property {string} external
@@ -54,6 +56,7 @@ function mapFileToVideos(maps) {
       output.push({
         title: video.title,
         thumbnail: video.thumbnail,
+        thumbnail_embed: video.thumbnail_embed,
         thumbnail_video: video.thumbnail_video,
         full: video.full,
         external: video.external,

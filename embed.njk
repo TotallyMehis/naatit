@@ -15,17 +15,14 @@ permalink: "embed/{{ video.map | slugify }}-{{ video.title | slugify }}/"
         <meta name="description" content="{{ video.description }}">
         <meta name="author" content="Miikka Ylätalo">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        {% if not video.thumbnail_video %}
-            <meta property="og:image" content="{{ global.url }}{{ video.thumbnail }}">
+        {% if video.thumbnail_embed %}
+            <meta property="og:image" content="{{ global.url }}{{ video.thumbnail_embed }}">
         {% endif %}
-        <meta property="og:video" content="{{ video.full }}">
+        <meta property="og:type" content="video.other">
         <meta property="og:video:url" content="{{ video.full }}">
-        <meta property="og:video:secure_url" content="{{ video.full }}">
         <meta property="og:video:type" content="video/webm">
         <meta property="og:video:width" content="1920">
         <meta property="og:video:height" content="1080">
-        <meta property="og:type" content="video.other">
-        <meta property="og:url" content="{{ global.url }}/embed/{{ video.map | slugify }}-{{ video.title | slugify }}/">
         <link rel="stylesheet" href="/site.css"> 
         <script src="/site.js"></script> 
     </head>
