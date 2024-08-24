@@ -12,8 +12,7 @@ const fs = require('fs').promises
  * @typedef VideoData
  * @type {object}
  * @property {string} title
- * @property {string} thumbnail
- * @property {string} thumbnail_embed
+ * @property {string | undefined} thumbnail
  * @property {boolean | undefined} thumbnail_video
  * @property {string} full
  * @property {string} external
@@ -39,7 +38,47 @@ const fs = require('fs').promises
  * 
  * @param {MapData[]} maps 
  */
-function mapFileToVideos(maps) {
+async function mapFileToVideos(maps) {
+  /** @type {string[]} */
+  let thumbnailFiles = []
+  try {
+    thumbnailFiles = await fs.readdir('./public/thumbs/')
+  } catch (err) {
+    console.error('Failed to retrieve filenames of public/thumbs/-directory', err)
+    throw err
+  }
+
+  /**
+   * 
+   * @param {string} p 
+   */
+  const getBaseFilenameOfThumbnail = p => {
+    const pathSepIndex = p.lastIndexOf('/')
+    let extIndex = p.lastIndexOf('.')
+    if (extIndex === -1) {
+      extIndex = undefined
+    }
+
+    return p.substring(pathSepIndex + 1, extIndex)
+  }
+
+  /**
+   * @param {string} mainThumbnailFile 
+   * @returns {string | undefined}
+   */
+  const getEmbedThumbnail = (mainThumbnailFile) => {
+    const baseFilename = getBaseFilenameOfThumbnail(video.thumbnail)
+    const embedThumbnailName = baseFilename + '.webp'
+
+    const hasEmbedThumbnail = thumbnailFiles.some(filename => filename === embedThumbnailName)
+    
+    if (!hasEmbedThumbnail) {
+      return undefined 
+    }
+
+    return '/' + embedThumbnailName
+  }
+  
   /** @type {VideoOutputData[]} */
   const output = []
 
@@ -49,14 +88,16 @@ function mapFileToVideos(maps) {
     }
 
     for (const video of map.videos) {
-      if (video.hidden) {
+      if (video.hidden || !video.thumbnail) {
         continue
       }
+
+      const thumbnail_embed = getEmbedThumbnail()
 
       output.push({
         title: video.title,
         thumbnail: video.thumbnail,
-        thumbnail_embed: video.thumbnail_embed,
+        thumbnail_embed,
         thumbnail_video: video.thumbnail_video,
         full: video.full,
         external: video.external,

@@ -274,7 +274,6 @@
             {
                 "title": "main savu",
                 "thumbnail": "/de_nuke_roof_main_smoke2_thumb.avif",
-                "thumbnail_embed": "/de_nuke_roof_main_smoke2_thumb.webp",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_roof_main_smoke2.webm",
                 "description": "Vasen + oikea klikkaus"
             },
@@ -282,13 +281,6 @@
                 "title": "A katto lyhty",
                 "thumbnail": "/de_nuke_a_roof_flash_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_a_roof_flash.webm"
-            },
-            {
-                "title": "A katto lyhty",
-                "thumbnail": "/de_nuke_a_flash_thumb.webm",
-                "thumbnail_video": true,
-                "full": "https://naatit-cdn.mehis.dev/de_nuke_a_flash.webm",
-                "hidden": true
             },
             {
                 "title": "A siilo savu",
