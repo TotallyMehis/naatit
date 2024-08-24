@@ -11,10 +11,13 @@ permalink: "embed/{{ video.map | slugify }}-{{ video.title | slugify }}/"
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Naatit | {{ video.map }} - {{ video.title }}</title>
+        <title>Naatit | {{ video.map }} | {{ video.title }}</title>
         <meta name="description" content="{{ video.description }}">
         <meta name="author" content="Miikka Ylätalo">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% if not video.thumbnail_video %}
+            <meta property="og:image" content="{{ global.url }}{{ video.thumbnail }}">
+        {% endif %}
         <meta property="og:video" content="{{ video.full }}">
         <meta property="og:video:url" content="{{ video.full }}">
         <meta property="og:video:secure_url" content="{{ video.full }}">
