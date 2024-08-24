@@ -25,7 +25,7 @@
                                 <ul>
                                     {% for video in map.videos %}
                                         {% if not video.hidden %}
-                                            <li><a href="/{{ map.name | slugify }}/#{{ video.id }}">{{ video.title }}</a></li>
+                                            <li><a href="/{{ map.name | slugify }}/#{{ video.title | slugify }}">{{ video.title }}</a></li>
                                         {% endif %}
                                     {% endfor %}
                                 </ul>
