@@ -27,9 +27,9 @@ permalink: "{{ map.name | slugify }}/"
                 {% if not video.hidden %}
                     <div class="mapvideo-container">
                         <div class="title-container">
-                            <h3 id="{{ video.id }}">{{ video.title }}</h3>
+                            <h3 id="{{ video.title | slugify }}"><a href="#{{ video.title | slugify }}">{{ video.title }}</a></h3>
                             <span class="link-container">
-                                <span class="link"><a href="#{{ video.id }}">&#x1f517;</a></span>
+                                <span class="link" data-embed-video-url="/embed/{{ map.name | slugify }}-{{ video.title | slugify }}/" title="Kopioi embed linkki.">&#x1f517;</span>
                             </span>
                         </div>
                         {% if video.thumbnail %}
@@ -49,8 +49,8 @@ permalink: "{{ map.name | slugify }}/"
                                     <div class="play-button">&#x25B6;</div>
                                 {% endif %}
                             </div>
-                            {% if video.video_comment %}
-                                <p class="comment">{{ video.video_comment }}</p>
+                            {% if video.description %}
+                                <p class="comment">{{ video.description }}</p>
                             {% endif %}
                         {% endif %}
                         {% if video.external %}

@@ -23,7 +23,7 @@ h2 {
   font-size: 2rem;
 }
 
-h1 a, h2 a {
+h1 a, h2 a, h3 a {
   text-decoration: none;
   color: var(--font-color) !important;
 }
@@ -110,6 +110,8 @@ video.full {
 
 .video-container {
   position: relative;
+  width: fit-content;
+  margin-inline: auto;
 }
 
 .external {
@@ -160,15 +162,17 @@ video.full {
   justify-content: center;
 }
 
-.title-container:hover .link {
-  opacity: 0.3;
+.title-container .link:hover {
+  opacity: 1;
 }
 
 .title-container .link {
   position: absolute;
   margin-left: 1.4rem;
-  opacity: 0;
+  opacity: 0.3;
   transform: translate(-50%, -50%);
+
+  cursor: pointer;
 
   transition-duration: 0.25s;
   transition-property: opacity;

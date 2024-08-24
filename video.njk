@@ -1,0 +1,58 @@
+---
+tags: map
+title: "{{ video.title }}"
+pagination:
+  data: videos
+  size: 1
+  alias: video
+permalink: "embed/{{ video.map | slugify }}-{{ video.title | slugify }}/"
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ video.map }} - {{ video.title }}</title>
+        <meta name="description" content="{{ video.description }}">
+        <meta name="author" content="Miikka Ylätalo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:video" content="{{ video.full }}">
+        <meta property="og:video:url" content="{{ video.full }}">
+        <meta property="og:video:secure_url" content="{{ video.full }}">
+        <meta property="og:video:type" content="video/webm">
+        <meta property="og:video:width" content="1920">
+        <meta property="og:video:height" content="1080">
+        <meta property="og:type" content="video.other">
+        <meta property="og:url" content="{{ global.url }}/{{ video.map | slugify }}/#{{ video.title | slugify }}">
+        <link rel="stylesheet" href="/site.css"> 
+        <script src="/site.js"></script> 
+    </head>
+    <body lang="fi" style="padding: 0; margin: 0">
+        <div class="mapvideo-container">
+            {% if video.thumbnail %}
+                <div class="video-container" data-video="{{ video.full }}">
+                    {% if not video.thumbnail_video %}
+                        <img src="{{ video.thumbnail }}" width="1920" class="thumbnail">
+                    {% else %}
+                        <video loop autoplay muted playsinline preload="auto" class="thumbnail" width="1920">
+                            <source src="{{ video.thumbnail }}" type="video/webm">
+                            Video ei toimi sun selaimella &#x3a;&#x28;
+                            {% if video.full %}
+                                <a href="{{ video.full }}">Lataa tästä</a>
+                            {% endif %}
+                        </video>
+                    {% endif %}
+                    {% if video.full %}
+                        <div class="play-button">&#x25B6;</div>
+                    {% endif %}
+                </div>
+                <div class="title-container">
+                    <h3>{{ video.map }} - {{ video.title }}</h3>
+                </div>
+                {% if video.description %}
+                    <p class="comment">{{ video.description }}</p>
+                {% endif %}
+                <p class="comment"><a href="/{{ video.map | slugify }}/#{{ video.title | slugify }}">Siirry takaisin.</a></p>
+            {% endif %}
+        </div>
+    </body>
+</html>

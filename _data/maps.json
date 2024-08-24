@@ -4,58 +4,49 @@
         "videos": [
             {
                 "title": "A solo savut",
-                "id": "solo_a_smokes",
                 "thumbnail": "/de_ancient_a_solo_smokes_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_a_solo_smokes.webm"
             },
             {
                 "title": "B solo execute",
-                "id": "solo_b_execute",
                 "thumbnail": "/de_ancient_b_execute_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_b_execute.webm",
-                "video_comment": "Lyhdyt on suojassa teroilta."
+                "description": "Lyhdyt on suojassa teroilta."
             },
             {
                 "title": "B oikea savu",
-                "id": "b_right_smoke",
                 "thumbnail": "/de_ancient_b_oikea_savu_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_b_oikea_savu.webm",
-                "video_comment": "Tähtää keskellä isoa kiveä, sen verran oikealle ettet osu siihen."
+                "description": "Tähtää keskellä isoa kiveä, sen verran oikealle ettet osu siihen."
             },
             {
                 "title": "mid savu",
-                "id": "mid_smoke",
                 "thumbnail": "/de_ancient_mid_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_mid_smoke.webm"
             },
             {
                 "title": "mid savun avaus",
-                "id": "mid_smokeopen",
                 "thumbnail": "/de_ancient_mid_smokeopen_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_mid_smokeopen.webm",
-                "video_comment": "Vasen + oikea klikkaus"
+                "description": "Vasen + oikea klikkaus"
             },
             {
                 "title": "ct ovet savu",
-                "id": "ct_doors",
                 "thumbnail": "/de_ancient_t_spawn_mid_door_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_t_spawn_mid_door_smoke.webm"
             },
             {
                 "title": "mid donut savu",
-                "id": "mid_donut_smoke",
                 "thumbnail": "/de_ancient_mid_donut_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_mid_donut_smoke.webm"
             },
             {
                 "title": "mid valo",
-                "id": "mid_flash",
                 "thumbnail": "/de_ancient_mid_flash_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_mid_flash.webm"
             },
             {
                 "title": "cave savu",
-                "id": "cave_smoke",
                 "thumbnail": "/de_ancient_cave_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_cave_smoke.webm"
             }
@@ -66,45 +57,38 @@
         "videos": [
             {
                 "title": "A main savu",
-                "id": "a_main_smoke",
                 "thumbnail": "/de_anubis_a_main_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_anubis_a_main_smoke.webm"
             },
             {
                 "title": "A heaven savu",
-                "id": "a_heaven_smoke",
                 "thumbnail": "/de_anubis_a_heaven_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_anubis_a_heaven_smoke.webm"
             },
             {
                 "title": "A solo execute",
-                "id": "a_solo_execute",
                 "thumbnail": "/de_anubis_a_solo_execute_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_anubis_a_solo_execute.webm"
             },
             {
                 "title": "B solo savut",
-                "id": "solo_b_smokes",
                 "thumbnail": "/de_anubis_b_solo_smokes_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_anubis_b_solo_smokes.webm",
-                "video_comment": "Ensimmäinen ja kolmas on aika tarkkoja."
+                "description": "Ensimmäinen ja kolmas on aika tarkkoja."
             },
             {
                 "title": "B konnu savu",
-                "id": "b_connector_smoke",
                 "thumbnail": "/de_anubis_b_connector_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_anubis_b_connector_smoke.webm"
             },
             {
                 "title": "mid savu",
-                "id": "mid_smoke",
                 "thumbnail": "/de_anubis_t_spawn_mid_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_anubis_t_spawn_mid_smoke.webm",
-                "video_comment": "Tähtää vähän oikealle reunasta."
+                "description": "Tähtää vähän oikealle reunasta."
             },
             {
                 "title": "mid molotov",
-                "id": "mid_molotov",
                 "thumbnail": "/de_anubis_mid_molotov_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_anubis_mid_molotov.webm"
             }
@@ -115,52 +99,44 @@
         "videos": [
             {
                 "title": "A cross savu",
-                "id": "cross_smoke",
                 "thumbnail": "/de_dust2_a_cross_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_a_cross_smoke.webm",
-                "video_comment": "Ei niin tarkka, kunhan menee seinän yli :P"
+                "description": "Ei niin tarkka, kunhan menee seinän yli :P"
             },
             {
                 "title": "B ovet savu",
-                "id": "b_doors_smoke",
                 "thumbnail": "/de_dust2_b_doors_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_b_doors_smoke.webm"
             },
             {
                 "title": "B ikkuna savu",
-                "id": "b_window_smoke",
                 "thumbnail": "/de_dust2_b_window_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_b_window_smoke.webm",
-                "video_comment": "Tähtää kahden pisteen väliin. Ei niin tarkka."
+                "description": "Tähtää kahden pisteen väliin. Ei niin tarkka."
             },
             {
                 "title": "ct mid valo",
-                "id": "ct_mid_flash",
                 "thumbnail": "/de_dust2_ct_mid_flash_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_ct_mid_flash.webm"
             },
             {
                 "title": "ct savu",
-                "id": "ct_smoke",
                 "thumbnail": "/de_dust2_ct_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_ct_smoke.webm"
             },
             {
                 "title": "ct savu (helppo)",
-                "id": "ct_smokeeasy",
                 "thumbnail": "/de_dust2_ct_smokeeasy_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_ct_smokeeasy.webm",
-                "video_comment": "Helpompi versio, mutta CTeet näkee savun yli helposti."
+                "description": "Helpompi versio, mutta CTeet näkee savun yli helposti."
             },
             {
                 "title": "long ovet savu",
-                "id": "long_doors_smoke",
                 "thumbnail": "/de_dust2_long_doors_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_long_doors_smoke.webm"
             },
             {
                 "title": "xbox / ct ovet savu",
-                "id": "xbox_smoke",
                 "thumbnail": "/de_dust2_xbox_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_xbox_smoke.webm"
             }
@@ -171,103 +147,87 @@
         "videos": [
             {
                 "title": "B valo",
-                "id": "b_flash",
                 "thumbnail": "/de_inferno_b_flash_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_flash.webm"
             },
             {
                 "title": "B coffin savu",
-                "id": "b_coffin_savu",
                 "thumbnail": "/de_inferno_b_coffin_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_coffin_smoke.webm",
-                "video_comment": "Vasen + oikea klikkaus"
+                "description": "Vasen + oikea klikkaus"
             },
             {
                 "title": "B dark molo",
-                "id": "b_dark_molotov",
                 "thumbnail": "/de_inferno_b_dark_molo_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_dark_molo.webm",
-                "video_comment": "Tähtää vasemmalle pikku pisteestä. Vähän vaikeata nähdä videossa."
+                "description": "Tähtää vasemmalle pikku pisteestä. Vähän vaikeata nähdä videossa."
             },
             {
                 "title": "solo B savut",
-                "id": "solo_b_savut",
                 "thumbnail": "/de_inferno_b_smokes_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_smokes.webm",
-                "video_comment": "#2 heitetään kyykyssä"
+                "description": "#2 heitetään kyykyssä"
             },
             {
                 "title": "B hieno ct savu",
-                "id": "b_hieno_ct_savu",
                 "thumbnail": "/de_inferno_b_nice_ct_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_nice_ct_smoke.webm",
-                "video_comment": "Vähän oikealle katon reunasta. Aika tarkka, mutta ei haittaa vaikka menee ohi. :)"
+                "description": "Vähän oikealle katon reunasta. Aika tarkka, mutta ei haittaa vaikka menee ohi. :)"
             },
             {
                 "title": "B newbox molo",
-                "id": "b_newbox_molotov",
                 "thumbnail": "/de_inferno_b_newbox_molotov_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_newbox_molotov.webm",
-                "video_comment": "Tähtää vähän alemmas mustasta läikästä."
+                "description": "Tähtää vähän alemmas mustasta läikästä."
             },
             {
                 "title": "B orange molo",
-                "id": "b_orange_molotov",
                 "thumbnail": "/de_inferno_b_1st_2nd_molotov_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_b_1st_2nd_molotov.webm"
             },
             {
-                "title": "auto savu",
-                "id": "banana_auto_savu",
+                "title": "banaani auto savu",
                 "thumbnail": "/de_inferno_banana_car_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_banana_car_smoke.webm",
-                "video_comment": "Kannattaa tähdätä vähän alemmas tuosta kulmasta, ylemmäs ei pysty tähdätä."
+                "description": "Kannattaa tähdätä vähän alemmas tuosta kulmasta, ylemmäs ei pysty tähdätä."
             },
             {
                 "title": "mid savu",
-                "id": "mid_smoke",
                 "thumbnail": "/de_inferno_mid_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_mid_smoke.webm"
             },
             {
                 "title": "boiler savu",
-                "id": "boiler_savu",
                 "thumbnail": "/de_inferno_boiler_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_boiler_smoke.webm"
             },
             {
                 "title": "mid arch-puolen savu",
-                "id": "mid_arch_savu",
                 "thumbnail": "/de_inferno_mid_arch_side_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_mid_arch_side.webm"
             },
             {
                 "title": "bracket valo",
-                "id": "bracket_flash",
                 "thumbnail": "/de_inferno_bracket_flash_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_bracket_flash.webm"
             },
             {
                 "title": "mid mid savu",
-                "id": "mid_mid_smoke",
                 "thumbnail": "/de_inferno_mid_mid_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_mid_mid_smoke.webm"
             },
             {
                 "title": "moto savu",
-                "id": "moto_smoke",
                 "thumbnail": "/de_inferno_moto_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_moto_smoke.webm"
             },
             {
                 "title": "library savu",
-                "id": "library_savu",
                 "thumbnail": "/de_inferno_library_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_library_smoke.webm"
             },
             {
-                "title": "auto savu",
-                "id": "truck_smoke",
+                "title": "A auto savu",
                 "thumbnail": "/de_inferno_a_truck_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_a_truck_smoke.webm"
             }
@@ -278,17 +238,14 @@
         "videos": [
             {
                 "title": "ikkuna savu",
-                "id": "ikkuna_savu",
                 "external": "https://csnades.gg/mirage/smokes/window-from-t-spawn-d"
             },
             {
                 "title": "solo A savut",
-                "id": "solo_a_savut",
                 "external": "https://csnades.gg/mirage/combinations/jungle-stairs-ticket-booth-from-a-ramp"
             },
             {
                 "title": "solo B savut",
-                "id": "solo_b_savut",
                 "external": "https://csnades.gg/mirage/combinations/window-door-bench-from-back-alley"
             }
         ]
@@ -298,41 +255,35 @@
         "videos": [
             {
                 "title": "ct piha savu",
-                "id": "ct_outside_smoke",
                 "thumbnail": "/de_nuke_ct_outside_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_ct_outside_smoke.webm",
-                "video_comment": "Tähtää alimmaiseen sähköjohtoon."
+                "description": "Tähtää alimmaiseen sähköjohtoon."
             },
             {
                 "title": "solo piha savut",
-                "id": "solo_outside_smokes",
                 "thumbnail": "/de_nuke_pihasavut_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_pihasavut.webm",
-                "video_comment": "Turvallinen polku secrettiin. :)"
+                "description": "Turvallinen polku secrettiin. :)"
             },
             {
                 "title": "solo piha savut v2",
-                "id": "solo_outside_smokes2",
                 "thumbnail": "/de_nuke_outside_smokes3_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_outside_smokes3.webm",
-                "video_comment": "Huom. heaven näkee pihan."
+                "description": "Huom. heaven näkee pihan."
             },
             {
                 "title": "main savu",
-                "id": "a_main_smoke",
                 "thumbnail": "/de_nuke_roof_main_smoke2_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_roof_main_smoke2.webm",
-                "video_comment": "Vasen + oikea klikkaus"
+                "description": "Vasen + oikea klikkaus"
             },
             {
                 "title": "A katto lyhty",
-                "id": "a_roof_flash",
                 "thumbnail": "/de_nuke_a_roof_flash_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_a_roof_flash.webm"
             },
             {
                 "title": "A katto lyhty",
-                "id": "a_roof_flash2",
                 "thumbnail": "/de_nuke_a_flash_thumb.webm",
                 "thumbnail_video": true,
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_a_flash.webm",
@@ -340,26 +291,22 @@
             },
             {
                 "title": "A siilo savu",
-                "id": "a_silo_smoke",
                 "thumbnail": "/de_nuke_a_silo_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_a_silo_smoke.webm"
             },
             {
                 "title": "A hut etusavu",
-                "id": "a_hut_front_smoke",
                 "thumbnail": "/de_nuke_a_hut_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_a_hut_smoke.webm"
             },
             {
                 "title": "A hut molo",
-                "id": "a_hut_molotov",
                 "thumbnail": "/de_nuke_a_hut_molotov_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_nuke_a_hut_molotov.webm",
-                "video_comment": "Muista ottaa kunnolla vauhtia. Aika vaikee... :F"
+                "description": "Muista ottaa kunnolla vauhtia. Aika vaikee... :F"
             },
             {
                 "title": "A lyhty",
-                "id": "a_hut_flash",
                 "external": "https://csnades.gg/nuke/flashbangs/hut-from-lobby-a"
             }
         ]
@@ -370,22 +317,19 @@
         "videos": [
             {
                 "title": "heaven savu",
-                "id": "heaven_savu",
                 "thumbnail": "/de_overpass_heaven_smoke_thumb.webm",
                 "thumbnail_video": true,
                 "full": "https://naatit-cdn.mehis.dev/de_overpass_heaven_smoke.webm"
             },
             {
                 "title": "B walkway savu",
-                "id": "b_walkway_savu",
                 "thumbnail": "/de_overpass_b_walkway_smoke_thumb.webm",
                 "thumbnail_video": true,
                 "full": "https://naatit-cdn.mehis.dev/de_overpass_b_walkway_smoke.webm",
-                "video_comment": "Tähtää samaan paikkaan kuin heaven savu, mutta vähän ylemmäs."
+                "description": "Tähtää samaan paikkaan kuin heaven savu, mutta vähän ylemmäs."
             },
             {
                 "title": "A mid savu",
-                "id": "a_mid_savu",
                 "thumbnail": "/de_overpass_a_mid_smoke_thumb.webm",
                 "thumbnail_video": true,
                 "full": "https://naatit-cdn.mehis.dev/de_overpass_a_mid_smoke.webm"
@@ -397,47 +341,41 @@
         "videos": [
             {
                 "title": "A vasen savu",
-                "id": "a_vasen_savu",
                 "thumbnail": "/de_vertigo_a_vasen_savu_thumb.webm",
                 "thumbnail_video": true,
                 "full": "https://naatit-cdn.mehis.dev/de_vertigo_a_vasen_savu.webm"
             },
             {
                 "title": "A oikea savu",
-                "id": "a_oikea_savu",
                 "thumbnail": "/de_vertigo_a_oikea_savu_thumb.webm",
                 "thumbnail_video": true,
                 "full": "https://naatit-cdn.mehis.dev/de_vertigo_a_oikea_savu.webm"
             },
             {
                 "title": "B vasen savu",
-                "id": "b_vasen_savu",
                 "thumbnail": "/de_vertigo_b_vasen_savu_thumb.webm",
                 "thumbnail_video": true,
                 "full": "https://naatit-cdn.mehis.dev/de_vertigo_b_vasen_savu.webm",
-                "video_comment": "Tähdätään kaiteiden väliin. Kyykkyheitto."
+                "description": "Tähdätään kaiteiden väliin. Kyykkyheitto."
             },
             {
                 "title": "B oikea savu",
-                "id": "b_oikea_savu",
                 "thumbnail": "/de_vertigo_b_oikea_savu_thumb.webm",
                 "thumbnail_video": true,
                 "full": "https://naatit-cdn.mehis.dev/de_vertigo_b_oikea_savu.webm",
-                "video_comment": "Tähdätään kyykyssä ja noustaan heittoa varten :)"
+                "description": "Tähdätään kyykyssä ja noustaan heittoa varten :)"
             },
             {
                 "title": "B connector savu/molo",
-                "id": "b_connector_savu_molo",
                 "thumbnail": "/de_vertigo_b_connector_smoke_molo_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_vertigo_b_connector_smoke_molo.webm",
-                "video_comment": "Voi seistä tai olla kyykyssä. Kyykky parempi ettei connector pelaaja ammu päähä :)"
+                "description": "Voi seistä tai olla kyykyssä. Kyykky parempi ettei connector pelaaja ammu päähä :)"
             },
             {
                 "title": "top mid savu",
-                "id": "top_mid_savu",
                 "thumbnail": "/de_vertigo_top_mid_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_vertigo_top_mid_smoke.webm",
-                "video_comment": "Tähtää vähän vasemmalle lankkujen keskeltä. Kannattaa olla tarkka, ct voi kurkkia savun oikealta puolelta tai sen yli."
+                "description": "Tähtää vähän vasemmalle lankkujen keskeltä. Kannattaa olla tarkka, ct voi kurkkia savun oikealta puolelta tai sen yli."
             }
         ]
     }

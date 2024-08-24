@@ -23,14 +23,15 @@ window.addEventListener('load', () => {
     thumbnail.classList.add('hidden')
   }
 
-  /** @this {HTMLAnchorElement} */
+  /** @this {HTMLSpanElement} */
   function onClickLink() {
-    const fullLink = (new URL(this.href, document.location)).href
+    const videoUrl = this.getAttribute('data-embed-video-url')
+    const fullLink = (new URL(videoUrl, document.location)).href
     navigator.clipboard.writeText(fullLink)
   }
 
-  /** @type {NodeListOf<HTMLAnchorElement>} */
-  const links = document.querySelectorAll('.title-container .link a')
+  /** @type {NodeListOf<HTMLSpanElement>} */
+  const links = document.querySelectorAll('.title-container .link')
   for (const link of links) {
     link.addEventListener('click', onClickLink)
   }
