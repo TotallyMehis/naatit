@@ -237,16 +237,67 @@
         "name": "mirage",
         "videos": [
             {
-                "title": "ikkuna savu",
-                "external": "https://csnades.gg/mirage/smokes/window-from-t-spawn-d"
+                "title": "A valo",
+                "thumbnail": "/de_mirage_a_popflash_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_a_popflash.webm",
+                "description": "Tähtää halkeaman keskelle."
             },
             {
-                "title": "solo A savut",
-                "external": "https://csnades.gg/mirage/combinations/jungle-stairs-ticket-booth-from-a-ramp"
+                "title": "A solo savut",
+                "thumbnail": "/de_mirage_a_solo_smokes_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_a_solo_smokes.webm"
             },
             {
-                "title": "solo B savut",
-                "external": "https://csnades.gg/mirage/combinations/window-door-bench-from-back-alley"
+                "title": "B valo",
+                "thumbnail": "/de_mirage_b_popflash_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_b_popflash.webm"
+            },
+            {
+                "title": "B solo savut",
+                "thumbnail": "/de_mirage_b_solo_smokes_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_b_solo_smokes.webm"
+            },
+            {
+                "title": "konnu savu",
+                "thumbnail": "/de_mirage_connector_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_connector_smoke.webm"
+            },
+            {
+                "title": "mid short savu",
+                "thumbnail": "/de_mirage_mid_to_short_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_mid_to_short_smoke.webm"
+            },
+            {
+                "title": "mid ikkuna savu",
+                "thumbnail": "/de_mirage_window_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_mid_to_window_smoke.webm"
+            },
+            {
+                "title": "mid yläkonnu savu",
+                "thumbnail": "/de_mirage_top_connector_smoke2_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_top_connector_smoke2.webm"
+            },
+            {
+                "title": "yläkonnu savu",
+                "thumbnail": "/de_mirage_top_connector_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_top_connector_smoke.webm"
+            },
+            {
+                "title": "top mid savu",
+                "thumbnail": "/de_mirage_topmid_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_topmid_smoke.webm"
+            },
+            {
+                "title": "ikkuna savu 1",
+                "thumbnail": "/de_mirage_window_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_window_smoke2.webm",
+                "description": "Hyppää ja pidä D:tä pohjassa."
+            },
+            {
+                "title": "ikkuna savu 2",
+                "thumbnail": "/de_mirage_window_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_mirage_window_smoke1.webm",
+                "description": "Tähtää tuolin yläreunaan, kyykkyhyppyheitto ennen kuin tähtäät tuolin pohjaan."
             }
         ]
     },
