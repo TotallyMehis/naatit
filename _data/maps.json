@@ -14,7 +14,12 @@
                 "description": "Lyhdyt on suojassa teroilta."
             },
             {
-                "title": "B oikea savu",
+                "title": "B long savu",
+                "thumbnail": "/de_ancient_b_long_smoke2_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_ancient_b_long_smoke2.webm"
+            },
+            {
+                "title": "B long savu 2",
                 "thumbnail": "/de_ancient_b_oikea_savu_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_b_oikea_savu.webm",
                 "description": "Tähtää keskellä isoa kiveä, sen verran oikealle ettet osu siihen."
@@ -36,7 +41,12 @@
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_t_spawn_mid_door_smoke.webm"
             },
             {
-                "title": "mid donut savu",
+                "title": "mid donitsi savu",
+                "thumbnail": "/de_ancient_mid_donut_smoke2_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_ancient_mid_donut_smoke2.webm"
+            },
+            {
+                "title": "mid donitsi savu 2",
                 "thumbnail": "/de_ancient_mid_donut_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_ancient_mid_donut_smoke.webm"
             },
@@ -190,6 +200,12 @@
                 "thumbnail": "/de_inferno_banana_car_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_inferno_banana_car_smoke.webm",
                 "description": "Kannattaa tähdätä vähän alemmas tuosta kulmasta, ylemmäs ei pysty tähdätä."
+            },
+            {
+                "title": "banaani lurk savu",
+                "thumbnail": "/de_inferno_banana_lurk_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_inferno_banana_lurk_smoke.webm",
+                "description": "Hyppy + W heitto. Tää on aika tarkka ja vaikee heittää."
             },
             {
                 "title": "mid savu",
