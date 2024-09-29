@@ -146,9 +146,21 @@
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_long_doors_smoke.webm"
             },
             {
-                "title": "xbox / ct ovet savu",
+                "title": "mid ovet savu",
+                "thumbnail": "/de_dust2_mid_doors_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_mid_doors_smoke.webm",
+                "description": "Hieman vaikeampi kuin xbox savu. mutta yleensä parempi."
+            },
+            {
+                "title": "xbox savu",
                 "thumbnail": "/de_dust2_xbox_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_xbox_smoke.webm"
+            },
+            {
+                "title": "mid ovet cross savu",
+                "thumbnail": "/de_dust2_mid_doors_smokeclose_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_mid_doors_smokeclose.webm",
+                "description": "Vasen + oikea klikkaus"
             }
         ]
     },
