@@ -1,10 +1,10 @@
-const esbuild = require('esbuild')
-const htmlMinifier = require('html-minifier')
+import esbuild from 'esbuild'
+import { minify } from 'html-minifier'
 
 /**
  * @param {import('@11ty/eleventy').UserConfig} eleventyConfig 
  */
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   const isDevelopment = false
 
   eleventyConfig.addPassthroughCopy({ 'public/**': '.' })
@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
     if (outputPath.endsWith('.html')) {
-      return htmlMinifier.minify(content, {
+      return minify(content, {
         collapseBooleanAttributes: true,
         collapseWhitespace: true,
         removeComments: true,

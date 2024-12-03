@@ -1,4 +1,4 @@
-const fs = require('fs').promises
+import { promises as fs } from 'fs'
 
 /**
  * @typedef MapData
@@ -111,7 +111,7 @@ async function mapFileToVideos(maps) {
   return output
 }
 
-async function getVideos() {
+export default async function getVideos() {
   try {
     const content = await fs.readFile('./_data/maps.json', { encoding: 'utf-8' })
 
@@ -123,9 +123,4 @@ async function getVideos() {
     console.error('Failed to read maps.json for video page generation!', err)
     throw err
   }
-}
-
-
-module.exports = async function () {
-  return await getVideos()
 }
