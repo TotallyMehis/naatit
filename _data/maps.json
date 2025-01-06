@@ -409,6 +409,28 @@
         ]
     },
     {
+        "name": "train",
+        "videos": [
+            {
+                "title": "A konnu savu",
+                "thumbnail": "/de_train_a_connector_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_train_a_connector_smoke.webm"
+            },
+            {
+                "title": "B ramp savu",
+                "thumbnail": "/de_train_b_ramp_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_train_b_ramp_smoke.webm",
+                "description": "Voit heittää kahdesta eri paikasta. Ensimmäisessä tähtää reunaan. Toisessa tähtää lätäkön keskelle."
+            },
+            {
+                "title": "B site savu",
+                "thumbnail": "/de_train_b_train_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_train_b_train_smoke.webm",
+                "description": "Tähtää tuolin ja kaapin väliin."
+            }
+        ]
+    },
+    {
         "name": "vertigo",
         "videos": [
             {
