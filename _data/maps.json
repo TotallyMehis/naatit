@@ -412,9 +412,25 @@
         "name": "train",
         "videos": [
             {
+                "title": "A main valo",
+                "thumbnail": "/de_train_a_main_flash_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_train_a_main_flash.webm"
+            },
+            {
                 "title": "A konnu savu",
                 "thumbnail": "/de_train_a_connector_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_train_a_connector_smoke.webm"
+            },
+            {
+                "title": "A kamera savu",
+                "thumbnail": "/de_train_a_camera_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_train_a_camera_smoke.webm"
+            },
+            {
+                "title": "ivy valo",
+                "thumbnail": "/de_train_ivy_flash_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_train_ivy_flash.webm",
+                "description": "Vasen + oikea klikkaus"
             },
             {
                 "title": "B ramp savu",
