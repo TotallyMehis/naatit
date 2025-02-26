@@ -114,6 +114,11 @@
                 "description": "Ei niin tarkka, kunhan menee seinän yli :P"
             },
             {
+                "title": "long nurkka savu",
+                "thumbnail": "/de_dust2_long_corner_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_long_corner_smoke.webm"
+            },
+            {
                 "title": "B ovet savu",
                 "thumbnail": "/de_dust2_b_doors_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_b_doors_smoke.webm"
@@ -123,6 +128,12 @@
                 "thumbnail": "/de_dust2_b_window_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_dust2_b_window_smoke.webm",
                 "description": "Tähtää kahden pisteen väliin. Ei niin tarkka."
+            },
+            {
+                "title": "B lurk savu",
+                "thumbnail": "/de_dust2_b_lurk_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_dust2_b_lurk_smoke.webm",
+                "description": "Tähtää hieman alemmas pisteestä."
             },
             {
                 "title": "ct mid valo",
@@ -425,6 +436,11 @@
                 "title": "A kamera savu",
                 "thumbnail": "/de_train_a_camera_smoke_thumb.avif",
                 "full": "https://naatit-cdn.mehis.dev/de_train_a_camera_smoke.webm"
+            },
+            {
+                "title": "A hell/red savu",
+                "thumbnail": "/de_train_hell_red_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_train_hell_red_smoke.webm"
             },
             {
                 "title": "ivy valo",
