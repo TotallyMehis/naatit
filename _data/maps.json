@@ -64,6 +64,7 @@
     },
     {
         "name": "anubis",
+        "hidden": true,
         "videos": [
             {
                 "title": "A main savu",
@@ -396,7 +397,6 @@
     },
     {
         "name": "overpass",
-        "hidden": true,
         "videos": [
             {
                 "title": "heaven savu",
