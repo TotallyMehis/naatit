@@ -399,6 +399,12 @@
         "name": "overpass",
         "videos": [
             {
+                "title": "B savu",
+                "thumbnail": "/de_overpass_b_site_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_overpass_b_site_smoke.webm",
+                "description": "Ei ole tarkka, kuitenkin tähtää vähän ylemmäs kulmasta."
+            },
+            {
                 "title": "heaven savu",
                 "thumbnail": "/de_overpass_heaven_smoke_thumb.webm",
                 "thumbnail_video": true,
@@ -412,10 +418,33 @@
                 "description": "Tähtää samaan paikkaan kuin heaven savu, mutta vähän ylemmäs."
             },
             {
+                "title": "monster savu",
+                "thumbnail": "/de_overpass_monster_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_overpass_monster_smoke.webm"
+            },
+            {
+                "title": "short tunneli tuli (helppo)",
+                "thumbnail": "/de_overpass_short_tunnel_molotov_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_overpass_short_tunnel_molotov.webm",
+                "description": "Tähtää rakennuksen kulmaan ja vasen klikkaa. Ei tarkka, mutta tähtää mielummin hieman alemmas."
+            },
+            {
+                "title": "short tunneli tuli",
+                "thumbnail": "/de_overpass_short_tunnel_molotov2_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_overpass_short_tunnel_molotov2.webm",
+                "description": "Tähtää rakennuksen kulmaan ja vasen+oikea klikkaa."
+            },
+            {
                 "title": "A mid savu",
                 "thumbnail": "/de_overpass_a_mid_smoke_thumb.webm",
                 "thumbnail_video": true,
                 "full": "https://naatit-cdn.mehis.dev/de_overpass_a_mid_smoke.webm"
+            },
+            {
+                "title": "fountain savu",
+                "thumbnail": "/de_overpass_ct_fountain_smoke_thumb.avif",
+                "full": "https://naatit-cdn.mehis.dev/de_overpass_ct_fountain_smoke.webm",
+                "description": "Tähtää piipun kärkeen ja vasen+oikea klikkaa kun poistut rappusilta."
             }
         ]
     },
